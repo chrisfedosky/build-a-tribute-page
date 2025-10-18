@@ -1,27 +1,38 @@
 body {
     border: 2px solid red;
+    background-color: hsla(hue, saturation, lightness, alpha);
 }
 #main {
     border: 2px solid black;
 }
 #title {
-    border: 2px solid orange;
+    border: 2px solid hsla(250, 40%, 35%, 1);
+    text-align: center;
+    background-color: hsla(69, 40%, 45%, .5);
+
 }
 #img-div {
-    border: 2px solid greenyellow;
+    border: 2px solid hsla(69, 40%, 45%, .5);
+    background-color: hsla(250, 20%, 15%, 1);
+    padding: 5px;
 }
 #image {
-    border: 2px solid blue;
+    border: 2px solid hsla(250, 40%, 35%, 1);
     display: block;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 5px auto;
+    width: 200px;
+    height: 250px;
 }
 #img-caption {
-    border: 2px solid purple;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: hsl(69, 78%, 50%, .9);
+    padding-top: 5px;
+
 }
 #tribute-info {
     border: 2px solid yellow;
 }
-#learn-more {
 
-}
