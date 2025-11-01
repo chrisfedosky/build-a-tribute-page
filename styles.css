@@ -1,11 +1,13 @@
 body {
-    border: 2px solid red;
-    background-color: hsla(hue, saturation, lightness, alpha);
+    font-family: sans-serif;
+    font-size: 16px;
+    background-image: radial-gradient(black, red, purple);
 }
 #main {
-    border: 2px solid black;
+    
+    background-image: radial-gradient();
 }
-#title {
+#title #subtitle {
     border: 2px solid hsla(250, 40%, 35%, 1);
     text-align: center;
     background-color: hsla(69, 40%, 45%, .5);
